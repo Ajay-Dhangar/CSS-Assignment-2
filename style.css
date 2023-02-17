@@ -1,0 +1,57 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+h1:hover {
+  color: chartreuse;
+  font-size: 40px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.col {
+  flex: 1;
+  color: #ffffff;
+  background-color: coral;
+  border: 3px solid #aa95cd;
+}
+.col:hover {
+  background-color: rgb(108, 54, 16);
+}
+
+P {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 8px 5px rgb(47, 45, 45);
+}
+
+@media screen and (max-width: 480px) {
+  .col {
+    margin: 10px 0;
+  }
+  .row1 .col {
+    flex-basis: 100%;
+  }
+  .row2 .col {
+    flex-basis: 100%;
+  }
+  .row3 .col {
+    flex-basis: 50%;
+  }
+  .row4 .col {
+    flex-basis: 50%;
+  }
+  .row5 .col {
+    flex-basis: 50%;
+  }
+  .row6 .col {
+    flex-basis: 50%;
+  }
+}
